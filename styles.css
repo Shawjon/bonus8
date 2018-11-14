@@ -1,0 +1,113 @@
+.header-look{
+    margin: auto;
+    color: black;
+    width: 200px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 63%;
+    border: 3px solid black;
+    text-align: center;
+    padding: 1%;
+    
+}
+.header-look:hover{
+    opacity: 0;
+    transform: scale(1) rotate(720deg);
+    transition: all 10000ms ease-out;
+
+}
+.top{
+    width: 100%;
+    background: white;
+    min-height: 25px;
+    padding: 10px;
+}
+.nav {
+    display: flex;
+    justify-content: space-around;
+    font-weight: 700;
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+}
+.nav .name {
+    display: none;
+}
+.nav li {
+    padding: 5px 10px 10px 10px;
+}
+.nav a {
+  transition: all .5s;
+}
+.nav a:hover {
+  color: black
+}
+
+body{
+    background-image: url(https://images.unsplash.com/photo-1526049255156-36719cfdf61e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d01efb9cdfdf2fab31624758287a3f37&auto=format&fit=crop&w=1945&q=80);
+    opacity: .8;
+    background-size: 100%;
+    text-align: center;
+    width: 100%
+    
+    
+}
+.box{
+    margin: 40px;
+    padding: 15px 30px 30px;
+    max-width: 250px;
+    max-height: 75%;
+    text-align: left;
+    background: rgb(228, 206, 8); 
+    border: 5px solid black;
+    border-radius: 30%;
+    display: block;
+    float: left;
+    font-family:  'Calibri', sans-serif;
+    
+}
+h1{
+    margin: auto;
+    text-align: center;
+    font-family: 'Arial Narrow Bold', sans-serif
+}
+h2{
+    margin:auto;
+}
+div{
+    margin: auto;
+}
+
+
+
+.fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgb(127, 137, 158);
+    color: white;
+}
+
+.fa-facebook:hover {
+    background: rgb(67, 99, 170);
+}
+.fa-twitter:hover {
+    background: #55ACEE;
+}
+footer {
+    width: 100%;
+    min-height: 30px;
+    padding: 20px 0 40px 20px;
+    text-align: left;
+    position: absolute;
+    bottom: 0%;
+
+  }
+  footer .copyright {
+    top: -8px;
+    margin-right: 20px;
+    font-size: .75em;
+  }
+  
